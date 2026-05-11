@@ -1,0 +1,7 @@
+
+    //localStorage.todos = JSON.stringify([
+    //  { id: 1, content: "Tâche 1", completed: true },
+    //{ id: 2, content: "Tâche 2", completed: false },
+    //]);
+    const todos = JSON.parse(localStorage.todos) || [];
+    console.table(todos);
